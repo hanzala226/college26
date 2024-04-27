@@ -1,0 +1,331 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+
+}
+nav{
+    background-color: orangered;
+    width: 100%;
+    height:80px ;
+}
+nav img{
+    margin-left: 20px;
+}
+span{
+    padding: 0 30px 0px 10px ;
+    position: absolute;
+    line-height: 80px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+nav ul{
+    float: right;
+   display: inline-flex;
+   line-height: 80px;
+   gap:40px;
+   margin-right: 10px;
+   font-size: 20px;
+   font-weight: 500;
+  
+}
+
+nav ul li a{
+    color: white;
+    padding: 10px;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+nav ul li a:hover{
+    background-color: white;
+  
+    color: orangered;
+    transform: scale(0.1);
+}
+h2{
+    margin-top: 20px;
+    text-align: center;
+    color: orangered;
+    font-size: 50px;
+    font-weight: 600;
+}
+.parent{
+  
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+ 
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+.chld1{
+border: 2px solid orangered;
+    width: 45%;
+    height: 300px;
+}
+.chld2{
+   
+    width: 45%;
+    height: 300px;
+    display: flex;
+    text-align: center;
+color: black;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.parent2{
+   
+ 
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.chld3{
+    background-color: blue;
+    width: 30%;
+    height: 200px;
+    transition: 0.3s ease;
+}
+.chld4{
+    background-color: blue;
+    width: 30%;
+    height: 200px;
+    transition:  0.3s ease;
+}
+.chld5{
+    background-color: blue;
+    width: 30%;
+    height: 200px;
+    transition:  0.3s ease;
+}
+h3{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: orangered;
+    font-weight: 600;
+}
+.rm{
+  margin-top: 50px;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+form{
+  border: 2px solid orangered;
+    width: 500px;
+    height: 550px;
+ text-align: center;
+ background-color: rgb(255, 255, 255);
+ color: black;
+ box-shadow: 0 0 20px 0 orangered;
+ border-radius: 20px;
+}
+.info{
+
+    outline: none;
+    border: 2px solid rgb(255, 102, 0);
+    border-radius: 15px;
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+   font-size: 15px;
+
+}
+.name{
+    font-weight: 600;
+}
+form h4{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: orangered;
+}
+.age{
+    outline: none;
+    border: 2px solid rgb(255, 94, 0);
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.gender{
+    font-weight: 600;
+}
+#job{
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(255, 98, 0);
+    text-align: center;
+    border-radius: 15px;
+}
+button{
+    background-color: orangered;
+    width: 200px;
+    height: 30px;
+outline: none;
+border-radius: 15px;
+border: 2px solid orangered;
+font-size: 15px;
+font-weight: 600;
+transition: .2s;
+box-shadow: 0 0 30px 0 orangered;
+margin-bottom: 40px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid orangered;
+    box-shadow: 0 0 30px 0 orangered;
+    color: orangered;
+}
+.bold{
+    font-weight: 600;
+}
+footer{
+    margin-top: 20px;
+    background-color: orangered;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+ align-items: center;
+ font-size: 15px;
+ font-weight: bold;
+}
+footer h5{
+    font-size: 1rem;
+}
+footer ul{
+    text-align: center;
+
+}
+footer ul li a{
+    color: white;
+}
+iframe{
+  box-shadow: 0 0 10px 0 orangered;
+    width: 500px;
+    height: 550;
+ 
+}
+@media(max-width:700px){
+    .rm{
+        display: block;
+    }
+    footer{
+        margin-top: 350px;
+        font-size: 1rem;
+    }
+    footer h5{
+        font-size: 10px;
+    }footer ul{
+        font-size: 10px;
+    }
+
+    .chld3{
+        height: 100px;
+        margin-top: 30px;
+        width: 28%;
+    }
+    .chld4{
+        height: 100px;
+        margin-top: 30px;
+        width: 28%;
+    }
+  
+    .chld5{
+        height: 100px;
+        margin-top: 30px;
+        width: 28%;
+    }
+    .info{
+        width: 200px;
+    }
+    form{
+        width: 350px;
+        margin-left: 50px;
+    }
+    iframe{ margin-top: 30px;
+        
+        margin-left: 50px;
+        
+width: 350px;
+height: 300px;
+    }
+    nav{
+        width: 100%;
+    }
+ 
+}
+@media(max-width:700px){
+        nav ul{
+            position: fixed;
+            background-color: rgb(255, 68, 0);
+            height: 120vh;
+            width: 100%;
+            display: block;
+            float: left;
+            text-align: center;
+          left: -100%;
+          transition: .5s;
+            
+        }
+   
+      
+
+
+    #ctn{
+        display: block;
+    }
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    float: right;
+    line-height: 80px;
+    font-size: 30px;
+    color: white;
+    display:none ;
+    margin-right: 30px;
+    cursor: pointer;
+}
+#check:checked~ul{
+    left: 0;
+}
+.chld3:hover{
+    box-shadow: 0 0 30px orangered;
+    border: 2px solid orangered;
+    transform: scale(1.1);
+}
+.chld4:hover{
+    box-shadow: 0 0 30px orangered;
+    border: 2px solid orangered;
+    transform: scale(1.1);
+}
+.chld5:hover{
+    box-shadow: 0 0 30px orangered;
+    border: 2px solid orangered;
+    transform: scale(1.1);
+}
